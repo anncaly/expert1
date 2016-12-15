@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
 # 'get' = :get
 
-  match 'work/choose_theme', to: 'work#choose_theme', via: :get
+  match 'work/choose_theme', to: 'work#choose_theme', via: :get, :as => 'choose_theme'
 
   match 'work/display_theme', to: 'work#display_theme', via: :post
 
