@@ -20,6 +20,10 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  test: Test!!!
+  work:
+    index:
+      def_select_theme: Test!!!
   hello: "Hello world"
 
   shared:

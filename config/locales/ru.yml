@@ -1,4 +1,5 @@
 ru:
+  test: Привет!
   shared:
     header:
       logo_title: "Experteese на Ruby_on_Rails"
