@@ -1,5 +1,12 @@
-%p
-  ='Header'
+%header.navbar.navbar-fixed-top.navbar-inverse
+  .container.header
+    = link_to t('.logo_title'), root_path, id: "logo"
+
+    %p.locale
+      = link_to image_tag("Russia.jpg", alt: "", style: "width: 10%; height: 10%", title: "Русский"), locale: :ru
+      = link_to image_tag("United_Kingdom.jpg", alt: "", style: "width: 12%; height: 12%", title: "English"), locale: :en
+      = I18n.locale
+
 %ul
   %li
     =link_to 'Main', main_index_path
@@ -9,3 +16,6 @@
     =link_to 'Help', main_help_path
   %li
     =link_to 'About', main_about_path
+
+
+
