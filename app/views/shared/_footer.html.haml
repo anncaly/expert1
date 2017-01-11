@@ -1,2 +1,22 @@
-%p
-  ='Footer'
+%footer.footer
+  .container.footer
+    %i.fa.fa-flag.iconsMain
+      Experteese
+
+    .footer_menu
+      %nav
+        %ul
+          %li
+            =link_to t('.about'), about_path
+          %li
+            =link_to t('.contacts'), contacts_path
+          %li
+            %a{:href => "http://news.railstutorial.org/"} News
+
+    .socials
+      = link_to image_tag("facebook.png", alt: "", title: "Facebook")
+      = link_to image_tag("twitter.png", alt: "", title: "Twitter")
+      = link_to image_tag("skype.png", alt: "", title: "Skype")
+
+    %i.fa.fa-copyright.iconsMain
+      2016 Experteese. All rights reserved

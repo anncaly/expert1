@@ -36,3 +36,30 @@ en:
       person: "Me"
       profile: "My page"
       settings: "Settings"
+    footer:
+      about: "About"
+      contacts: "Contacts"
+
+  users:
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password confirmation"
+      create_account: "Create my account"
+
+    new:
+      new_user_sign_up: "New user sign up"
+      back: "Back"
+
+    show:
+      work: "Proceed to work"
+      email: "Email"
+
+  sessions:
+      new:
+        sign_in: "Sign in"
+        sign_up: "Sign up"
+        email: "E-mail"
+        password: "Password"
+        new_user?: "New user?"
