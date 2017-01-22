@@ -29,6 +29,9 @@ Image.create([{name: 'Восход солнца на Южно-Китайском
 Theme.delete_all
 Theme.reset_pk_sequence
 Theme.create([{name: "Маринистика"},
-              {name: "Абстракционизм"}])
+              {name: "Абстракционизм"}]
+
+Value.delete_all
+Value.reset_pk_sequence
 
 

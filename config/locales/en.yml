@@ -28,12 +28,12 @@ en:
 
   shared:
     header:
-      logo_title: "Experteese in Ruby_on_Rails"
+      logo_title: "Experteese"
       home: "Home"
       help: "Help"
       sign_in: "Sign in"
       sign_out: "Sign out"
-      person: "Me"
+      person: "Profile"
       profile: "My page"
       settings: "Settings"
     footer:

@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
 
-  include SessionHelper
+  include SessionsHelper
 
   def extr_locale_in_accept_lang
     locale = params[:locale]

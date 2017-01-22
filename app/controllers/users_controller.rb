@@ -26,13 +26,13 @@ class UsersController < ApplicationController
   # POST /users.json
   def create
     @user = User.new(user_params)
-
     respond_to do |format|
       if @user.save
-        # sign_in @user
+        sign_in @user
         format.html { redirect_to @user, notice: 'User was successfully created.' }
         format.json { render :show, status: :created, location: @user }
       else
+        flash.now[:alert] = "Bad registration"
         format.html { render :new }
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end

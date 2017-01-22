@@ -2,12 +2,12 @@ ru:
 #  test: Привет!
   shared:
     header:
-      logo_title: "Experteese на Ruby_on_Rails"
+      logo_title: "Experteese"
       home: "Главная"
       help: "Помощь"
       sign_in: "Войти"
       sign_out: "Выйти"
-      person: "Я"
+      person: "Профиль"
       profile: "Моя страница"
       settings: "Настройки"
     footer:
