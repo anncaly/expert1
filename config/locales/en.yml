@@ -20,11 +20,6 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-#  test: Test!!!
-  work:
-    index:
-      def_select_theme: Test!!!
-  hello: "Hello world"
 
   shared:
     header:
@@ -38,6 +33,15 @@ en:
       settings: "Settings"
     footer:
       about: "About"
+      contacts: "Contacts"
+      news: "News"
+
+  main:
+    about:
+      about_title: "About app"
+    help:
+      main_steps: "Main steps"
+    contacts:
       contacts: "Contacts"
 
   users:
@@ -55,6 +59,14 @@ en:
     show:
       work: "Proceed to work"
       email: "Email"
+      edit: "Edit"
+      user_list: "To users list"
+
+    index:
+      show: "Show"
+      edit: "Edit"
+      destroy: "Destroy"
+      new_user: "New user"
 
   sessions:
       new:
@@ -62,48 +74,46 @@ en:
         sign_up: "Sign up"
         email: "E-mail"
         password: "Password"
-        new_user?: "New user?"
+        new_user: "New user"
 
 
   work:
+    index:
+      def_select_theme: "Select theme to leave your answer"
 
-      index:
-        def_select_theme: "Select theme to leave your answer"
+    button_theme_select:
+      select_theme_bt: "Select theme"
 
+    button_list_results:
+      results_list: "Results list"
 
-      button_theme_select:
-        select_theme_bt: "select theme"
+    choose_theme_from_arr:
+      select_theme: "select theme ar"
 
-      button_list_results:
-        results_list: "list results"
+    choose_theme:
+      select_theme: "select theme ch"
 
-      choose_theme_from_arr:
-        select_theme: "select theme ar"
+    images:
+      common_value: "common value"
+      total_values: "total values"
 
-      choose_theme:
-        select_theme: "select theme ch"
+      make_decision: "Make your decision"
+      save_decision: "save"
 
-      images:
-        common_value: "common value"
-        total_values: "total values"
-
-        make_decision: "Make your decision"
-        save_decision: "save"
-
-        share_opinion: "Share your opinion"
+      share_opinion: "Share your opinion"
 
 
         # titles
-        theme_name: "Theme name"
+      theme_name: "Theme name"
 
-      display_theme:
-        select_theme: "Select theme"
+    display_theme:
+      select_theme: "Select theme"
 
 
-      results_list:
-        no_values: "No Values results for selected theme..."
-        select_theme: "Select other theme"
-        return_to_main: "Return to main"
+    results_list:
+      no_values: "No Values results for selected theme..."
+      select_theme: "Select other theme"
+      return_to_main: "Return to main"
 
         # titles
-        page_title: "Go to work area"
+      page_title: "Go to work area"

@@ -1,2 +1,10 @@
-%h1 Main#contacts
-%p Find me in app/views/main/contacts.html.haml
+.container
+  - provide(:title, "Contacts")
+
+  %h1= t('.contacts')
+
+  .about-copy
+    %h3
+      Предложения по развитию приложения и улучшению его функциональности направлять по адресу:
+    .mailto
+      experteese@gmail.com

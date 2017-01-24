@@ -24,12 +24,24 @@ Image.create([{name: 'Восход солнца на Южно-Китайском
               {name: 'Первая абстрактная акварель, 1910 год', file: 'Первая абстрактная акварель, 1910 год.jpg', theme_id: 2},
               {name: 'Последовательность, 1935 год', file: 'Последовательность, 1935 год.jpg', theme_id: 2},
               {name: 'Средиземноморский мотив', file: 'Средиземноморский мотив.jpg', theme_id: 1},
-              {name: 'Царство Нептуна', file: 'Царство Нептуна.jpg', theme_id: 1}])
+              {name: 'Джино Северини. На пляже', file: 'Джино Северини. На пляже.jpg', theme_id: 3},
+              {name: 'Картина Умберто Боччони', file: 'Картина Умберто Боччони.jpg', theme_id: 3},
+              {name: 'Реконструкция Вселенной', file: 'Реконструкция Вселенной.jpg', theme_id: 3},
+              {name: 'Состояние души', file: 'Состояние души.jpg', theme_id: 3},
+              {name: 'Умберто Боччони. Эластичность, 1912 г.', file: 'Умберто Боччони. Эластичность, 1912 г.jpg', theme_id: 3},
+              {name: 'Астронавт', file: 'Астронавт.jpg', theme_id: 4},
+              {name: 'Гранат', file: 'Гранат.jpg', theme_id: 4},
+              {name: 'Девушка', file: 'Девушка.jpg', theme_id: 4},
+              {name: 'Домики', file: 'Домики.jpg', theme_id: 4},
+              {name: 'Космонавт', file: 'Космонавт.jpg', theme_id: 4},
+              {name: 'Зебры', file: 'Зебры.jpg', theme_id: 4}])
 
 Theme.delete_all
 Theme.reset_pk_sequence
 Theme.create([{name: "Маринистика"},
-              {name: "Абстракционизм"}]
+              {name: "Абстракционизм"},
+              {name: "Футуризм"},
+              {name: "Поп-арт"}])
 
 Value.delete_all
 Value.reset_pk_sequence

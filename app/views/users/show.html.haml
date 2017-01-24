@@ -1,25 +1,21 @@
 %p#notice= notice
 
-.show_user
-  .row
-    %aside.span4
-      %section
-        %h1
+.container
+  .show_user
+    .row
+      %aside.span4
+        %section
           = gravatar_for @user
-          = @user.name
-  %p
-    %b = t('.email')
-    = @user.email
+          .profile_login
+            %p
+              = @user.name
+    .profile_email
+      %b= t('.email')
+      = @user.email
 
-  = link_to t('.work'), work_path, class: "btn btn-lg btn-primary"
+    = link_to t('.work'), work_path, class: "btn btn-lg btn-primary"
 
--#%p
--#  %b Name:
--#  = @user.name
--#%p
--#  %b Email:
--#  = @user.email
-
-= link_to 'Edit', edit_user_path(@user)
-\|
-= link_to 'Back', users_path
+  .profile_control
+    = link_to t('.edit'), edit_user_path(@user)
+    \|
+    = link_to t('.user_list'), users_path

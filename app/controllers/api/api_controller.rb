@@ -11,17 +11,19 @@ module Api
 
       respond_to do |format|
         if new_image_index.blank?
-          format.html {render nothing: true, status: :unprocessable_entity}
+          format.html { render nothing: true, status: :unprocessable_entity }
           format.json {}
         else
-          format.html {render display_theme_path, status: :successfully}
-          format.json {render json:{new_image_index: next_image_data[:index],
-                                  name: next_image_data[:name],
-                                  file: next_image_data[:file],
-                                  image_id: next_image_data[:image_id],
-                                  value: next_image_data[:value],
-                                  status: :successfully,
-                                  notice: 'Successfully listed to next'} }
+          format.html { render display_theme_path, status: :successfully }
+          format.json { render json: { new_image_index: next_image_data[:index],
+                                       name: next_image_data[:name],
+                                       file: next_image_data[:file],
+                                       image_id: next_image_data[:image_id],
+                                       user_valued: next_image_data[:user_valued],
+                                       common_ave_value: next_image_data[:common_ave_value],
+                                       value: next_image_data[:value],
+                                       status: :successfully,
+                                       notice: 'Successfully listed to next'} }
         end
       end
     end
@@ -44,6 +46,8 @@ module Api
                                         name: prev_image_data[:name],
                                         file: prev_image_data[:file],
                                         image_id: prev_image_data[:image_id],
+                                        user_valued: prev_image_data[:user_valued],
+                                        common_ave_value: prev_image_data[:common_ave_value],
                                         value: prev_image_data[:value],
                                         status: :successfully,
                                         notice: 'Successfully listed to previous'} }

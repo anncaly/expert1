@@ -46,18 +46,44 @@ p.locale b
   float: left
   margin: 0px 30px
 
+.gravatar
+  height: 50px
+
+.logged
+  color: #dcf1fb
+  top: 11px
+  font-size: 18px
+  font-weight: bold
+  margin-top: 7px
+
+.dropdown-toggle
+  top: -8px
+//background-color: #1b043a
+
+.dropdown-toggle > a:focus
+  background-color: #1b043a
+
+.dropdown-toggle p
+  padding-top: 5px
 
 .navbar-inverse .navbar-nav > li > a
   color: #f1f1ff
+  font-size: 16px
+
+.navbar-inverse .navbar-nav > li
+  margin-left: 10px
+  top: 3px
 
 .pull-left
-  //padding-left: 280px
+  padding-left: 240px
 
 .footer
   background-color: #2c2c3e
 
 .socials
   float: right
+  position: relative
+  right: 12%
 
 .socials > a
   margin-right: 10px
@@ -68,6 +94,7 @@ p.locale b
   float: left
   padding-top: 15px
   padding-right: 50px
+  margin-left: 5%
 
 .footer_menu
   padding-top: 7px
@@ -93,7 +120,7 @@ p.locale b
 
 .container
   position: relative
-  top: 125px
+  top: 80px
 
 .footer
   position: fixed
@@ -112,12 +139,16 @@ form.new_user
   left: 25%
   margin-bottom: 150px
 
+.col-md-9
+  width: 70%
 h1
   text-align: center
   margin-bottom: 30px
 
 h2
   text-align: center
+  font-size: 28px
+  color: #545454
 
 input
   width: 100%
@@ -159,7 +190,180 @@ div.span6.offset3
   font-size: 20px
   color: #81808a
 
+.control_panel
+  background-color: #e6e6e6
+  position: relative
+  top: 112px
 
+.controls
+  padding: 20px
 
+.col-md-10.slider
+  width: 70%
 
+input[type=range]
+  -webkit-appearance: none
+  width: 100%
+  margin: 6.25px 0
+
+input[type=range]:focus
+  outline: none
+
+input[type=range]::-webkit-slider-runnable-track
+  width: 100%
+  height: 4.3px
+  cursor: pointer
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d
+  background: #29709a
+  border-radius: 2.4px
+  border: 0px solid #000101
+
+input[type=range]::-webkit-slider-thumb
+  box-shadow: 1px 1px 1px #002000, 0px 0px 1px #003a00
+  border: 0px solid #000000
+  height: 14px
+  width: 10px
+  border-radius: 2px
+  background: #fffff2
+  cursor: pointer
+  -webkit-appearance: none
+  margin-top: -6.25px
+
+input[type=range]:focus::-webkit-slider-runnable-track
+  background: #2a739e
+
+input[type=range]::-ms-track
+  width: 100%
+  height: 5.5px
+  cursor: pointer
+  background: transparent
+  border-color: transparent
+  color: transparent
+
+input[type=range]::-ms-fill-lower
+  background: #286d96
+  border: 0px solid #000101
+  border-radius: 4.8px
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d
+
+input[type=range]::-ms-fill-upper
+  background: #29709a
+  border: 0px solid #000101
+  border-radius: 4.8px
+  box-shadow: 0px 0px 1px #000000, 0px 0px 0px #0d0d0d
+
+.button__left.theme, .button__left.modalBtn
+  height: 35px
+  width: 130px
+  background-color: #d0d0d6
+  border: 5px
+  margin-bottom: 15px
+
+.choose
+  font-size: 18px
+  margin-bottom: 25px
+  color: #1e3835
+  padding-top: 10px
+
+.col-md-10.slider
+  width: 65%
+  left: 4%
+
+.show_user
+  width: 30%
+  position: relative
+  top: 30px
+  left: 50px
+
+table
+  width: 70%
+  position: relative
+  left: 20%
+  margin-top: 20px
+
+.add_user
+  float: right
+  margin-right: 20%
+
+.min
+  left: 4%
+
+.max
+  right: 3%
+
+.button__results.save
+  position: relative
+  left: 12%
+  margin-bottom: 20px
+  float: left
+
+.results_list
+  margin-bottom: 25px
+
+#chosen_value
+  float: right
+  margin-right: 105px
+  border: 1px solid #c7c7c7
+  padding: 2px 5px
+  border-radius: 3px
+  background-color: #fbfbfb
+
+.common_value, .total_values
+  font-size: 17px
+  color: #1a6684
+
+.image_diag
+  background-color: #d2d2d2
+  border-top: 1px solid #fff
+
+.glyphicon
+  color: #273440
+
+.center.jumbotron
+  margin-top: 50px
+  background-color: #e4e4e4
+
+.list
+  text-align: left
+  font-size: 25px
+  line-height: 30px
+
+.mailto
+  margin-left: 39%
+  margin-top: 25px
+  font-size: 23px
+  font-weight: bold
+
+.profile_login
+  width: 80%
+  position: relative
+  top: -50px
+  left: 70px
+  font-size: 35px
+
+.profile_email
+  position: relative
+  top: -35px
+  left: -16px
+  font-size: 18px
+
+.show_user > .btn.btn-lg.btn-primary
+  position: relative
+  top: -20px
+  left: -16px
+
+.profile_control
+  position: relative
+  top: 30px
+  left: 35px
+
+.table_value td
+  padding: 7px
+
+.go_main
+  position: relative
+  left: 20%
+
+.image_user_value
+  margin-left: 47%
 

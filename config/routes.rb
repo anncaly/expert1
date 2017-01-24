@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
 # 'get' = :get
 
-  match 'work/choose_theme', to: 'work#choose_theme', via: :get, :as => 'choose_theme'
+  # match 'work/choose_theme', to: 'work#choose_theme', via: :get, :as => 'choose_theme'
 
   match 'work/display_theme', to: 'work#display_theme', via: :post
 
@@ -22,8 +22,6 @@ Rails.application.routes.draw do
   # match 'main/help', to: 'main#help', via: 'get'
 
   # get 'main/contacts'
-  #
-  # get 'main/about'
 
   namespace :api, defaults: { format: :json } do
     match 'next_image',       to: 'api#next_image',   via: 'get'

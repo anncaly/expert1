@@ -13,7 +13,15 @@ ru:
     footer:
       about: "О сайте"
       contacts: "Контакты"
+      news: "Новости"
 
+  main:
+    about:
+      about_title: "О приложении"
+    help:
+      main_steps: "Основные шаги"
+    contacts:
+      contacts: "Контакты"
   users:
     form:
       name: "Имя"
@@ -29,53 +37,59 @@ ru:
     show:
       work: "Экспертиза"
       email: "Email"
+      edit: "Редактировать"
+      user_list: "К списку пользователей"
+
+    index:
+      show: "Показать"
+      edit: "Редактировать"
+      destroy: "Удалить"
+      new_user: "Добавить"
 
   sessions:
-      new:
-        sign_in: "Войти"
-        sign_up: "Зарегистрироваться"
-        email: "E-mail"
-        password: "Пароль"
-        new_user?: "Новый пользователь?"
+    new:
+      sign_in: "Войти"
+      sign_up: "Зарегистрироваться"
+      email: "E-mail"
+      password: "Пароль"
+
 
   work:
+    index:
+      def_select_theme: "Выберите тему для оценки"
 
-      index:
-        def_select_theme: "Выберите тему для оценки"
+    button_theme_select:
+      select_theme_bt: "Выбрать тему"
 
-      button_theme_select:
-        select_theme_bt: "выбрать тему"
+    button_list_results:
+      results_list: "Результаты"
 
+    choose_theme_from_arr:
+      select_theme: "выберите тему"
 
-      button_list_results:
-        results_list: "результаты"
+    images:
+      common_value: "средняя оценка"
+      total_values: "всего оценок"
 
-      choose_theme_from_arr:
-        select_theme: "выберите тему"
+      make_decision: "Выберите свою оценку"
+      save_decision: "сохранить"
 
-      images:
-        common_value: "средняя оценка"
-        total_values: "всего оценок"
-
-        make_decision: "Выберите свою оценку"
-        save_decision: "сохранить"
-
-        share_opinion: "Поделись своим мнением"
+      share_opinion: "Поделись своим мнением"
 
 
-        # titles
-        theme_name: "Тема"
+      # titles
+      theme_name: "Тема"
 
-      display_theme:
-        select_theme: "Выберите тему для оценки"
+    display_theme:
+      select_theme: "Выберите тему для оценки"
 
 
-      results_list:
-        no_values: "Результаты по выбранной теме отсутствуют..."
-        select_theme: "Выберите другую тему"
-        return_to_main: "На главную"
+    results_list:
+      no_values: "Результаты по выбранной теме отсутствуют..."
+      select_theme: "Выберите другую тему"
+      return_to_main: "На главную"
 
         # titles
-        page_title: "Перейдите к выбору темы"
+      page_title: "Перейдите к выбору темы"
 
 
